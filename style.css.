@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&family=Futura+PT:wght@400;700&display=swap');
+  header {
+          padding: 10px 0;
+            display: flex;
+            align-items: left;
+        }
+body {
+    background-color: #FAFCFE;
+    font-family: 'Futura PT', sans-serif;
+}
+.logo {
+   margin-left: 23px;
+            font-size: 27px;
+    color: #0057FF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900; /* Начертание Black */
+}
+nav {
+  padding: 10px;
+            display: flex;
+           background-color: #FAFCFE;
+    font-family: 'Futura PT', sans-serif;
+}
+nav span {
+    color: #000000;
+  margin-left: 63px;
+    font-family: 'Futura PT', sans-serif;
+}
+nav span:last-child {
+    color: #0057FF;
+    font-family: 'Futura PT', sans-serif;
+}
+.icons {
+   display: flex;
+    align-items: center;
+   position: absolute;
+    top: 25px; 
+    left: 914px; 
+ }
+.icons a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 15px;
+  }
+.icons a:first-child::before {
+    content: '';
+    background-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'1em\' height=\'1em\' viewBox=\'0 0 24 24\'%3E%3Cpath fill=\'none\' stroke=\'%23000\' stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6\'/%3E%3C/svg%3E');
+}
+.icons a:last-child::before {
+    content: '';
+    background-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'1em\' height=\'1em\' viewBox=\'0 0 48 48\'%3E%3Cg fill=\'none\' stroke=\'%23000\' stroke-width=\'4\'%3E%3Cpath stroke-linejoin=\'round\' d=\'M6 15h36l-2 27H8z\' clip-rule=\'evenodd\'/%3E%3Cpath stroke-linecap=\'round\' stroke-linejoin=\'round\' d=\'M16 19V6h16v13\'/%3E%3Cpath stroke-linecap=\'round\' d=\'M16 34h16\'/%3E%3C/g%3E%3C/svg%3E');
+}
+.additional-info {
+    font-family:'Futura PT', sans-serif;
+    margin-left: 17px;
+  margin-top: 31px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.additional-info2 {
+  font-family: 'Nunito Sans', sans-serif;
+   margin-left: 17px;
+  font-size: 18px;
+    font-weight: 900;
+}
+.review {
+   position: absolute;
+  top: 99px;
+    left: 572px;
+  font-family: 'Futura PT', sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+}
+.review2 {
+    position: absolute;
+    top: 99px;
+    left: 653px; 
+    font-family: 'Futura PT', sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+}
+.buy-button {
+    position: absolute;
+    top: 92px; 
+    left: 892px; 
+    width: 85px; 
+    height: 35px; 
+    border-radius: 20px; 
+    background-color: #0057FF; 
+    color: #FAFCFE; 
+    font-size: 16px; 
+    font-family: 'Futura PT', sans-serif; 
+    font-weight: 500; 
+    text-align: center; 
+  }
+.new-section {
+    position: absolute;
+    top: 181px; 
+    left: 23px; 
+    right: 23px; 
+    width: 954px; 
+    height: 573px; 
+    background: linear-gradient(45deg, #DADBDB, #B5BBC5); 
+}
+.image-container {
+    position: absolute;
+    top: 181px;
+    left: 23px;
+    right: 454px;
+}
+.image-container img {
+    width: 500px;
+    height: 573px;
+}
+   .container {
+    position: relative;
+}
+.electrolux-text {
+    position: absolute;
+    top: 112px;
+    left: 560px;
+    color: #000;
+    font-size: 64px;
+  font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+}
+.container {
+    position: relative;
+}
+.Mango-text{
+   position: absolute;
+    top: 176px;
+    left: 560px;
+    color: #000;
+    font-size: 64px;
+  font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+}
+.container {
+    position: relative;
+}
+  .electrolux-text-small {
+    position: absolute;
+  top: 278px;
+  left: 560px;
+    font-size: 18px;
+  font-family: 'Futura PT', sans-serif;
+font-weight: 600;
+    }
+.line-break {
+  white-space: pre-wrap;
+}
+.p1 {
+    line-height: 1;
+   }
+.new-floor {
+    position: absolute;
+    top: 745px; 
+    left: 23px; 
+    width: calc(100% - 46px); 
+}
+.new-floor-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 38px;
+    color: #000000;
+  font-weight: 800;
+}
+.new-floor2 {
+    position: absolute;
+    top: 928px; 
+    left: 23px; 
+    width: calc(100% - 46px); 
+}
+.new-floor-text2 {
+    font-family: 'Futura PT', sans-serif;
+    font-size: 27px;
+    color: #000000;
+  font-weight: 400;
+}
+.copyright {
+    position: absolute;
+    left: 23px;
+    top: 1152px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+}
+.footer-text {
+    position: absolute;
+    left: 41px; 
+   top: 1152px;
+    font-family: 'Futura PT', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
